@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!-- javascript -->
+
+    <!-- font -->
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "kuk3rxx",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "kuk3rxx",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+
+    <title>すがまいの、のりまき。</title>
+  </head>
+
+  <body>
+    <a id="home"></a>
+    <div class="top">
+      <img src="image/topImage.svg" width="100%" alt="" />
+    </div>
+
+    <div class="main">
+      <header>
+        <div class="menus">
+          <div class="menu">
+            <a href="#home">home</a>
+          </div>
+          <div class="menu">
+            <a href="#about">about</a>
+          </div>
+          <div class="menu">
+            <a href="#works">works</a>
+          </div>
+        </div>
+      </header>
+
+      <a id="about"></a>
+      <div class="title">
+        <img src="image/about/aboutTop.svg" width="90%" alt="" />
+      </div>
+
+      <!-- about start -->
+      <div class="about">
+        <img src="image/about/my1.svg" alt="" />
+
+        <div id="norimaki">
+          <img src="image/about/norimaki.svg" alt="" />
+        </div>
+
+        <div id="portfolio">
+          <img src="image/about/portfolio.svg" alt="" />
+          <iframe
+            src="https://drive.google.com/file/d/1Y63v4WECmbP9bWhzMZOfsxq449AE1FWX/preview?usp=sharing"
+            frameborder="0"
+            width="85%"
+            height="500px"
+          ></iframe>
+        </div>
+      </div>
+      <!-- about end -->
+
+      <a id="works"></a>
+      <div class="title">
+        <img src="image/works/worksTop.svg" width="90%" alt="" />
+      </div>
+
+      <!-- works start -->
+      <div class="works">
+        <div class="item">
+          <a href="otya.html"> <img src="image/works/otya.svg" alt="" /></a>
+        </div>
+
+        <p>and more...</p>
+      </div>
+      <!-- works end -->
+    </div>
+    <!-- main end -->
+
+    <footer>
+      <p>©Mai Sugawara 2022︎</p>
+    </footer>
+  </body>
+</html>
