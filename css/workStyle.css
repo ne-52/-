@@ -32,8 +32,6 @@ header {
   text-decoration: none;
   color: black;
 }
-.menu a :hover {
-}
 
 /* main */
 .title {
@@ -45,6 +43,7 @@ header {
 .main {
   text-align: center;
 }
+
 .main img {
   margin: 2rem auto;
 }

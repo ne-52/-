@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+/* body */
+body{
+}
+
+>>>>>>> origin/master
 /* top */
 .top {
   margin: 5rem 0;
@@ -28,6 +35,11 @@ header {
   text-decoration: none;
   color: black;
 }
+<<<<<<< HEAD
+=======
+.menu a :hover {
+}
+>>>>>>> origin/master
 
 /* main */
 .main {
@@ -47,9 +59,12 @@ header {
   margin: 0 auto;
   padding: 10rem 0;
 }
+<<<<<<< HEAD
 .my_s {
   display: none;
 }
+=======
+>>>>>>> origin/master
 .profile {
   width: 90%;
   display: flex;
@@ -98,6 +113,7 @@ footer p {
   color: white;
   padding: 10rem;
 }
+<<<<<<< HEAD
 
 /* media query */
 
@@ -113,3 +129,5 @@ footer p {
     width: 70%;
   }
 }
+=======
+>>>>>>> origin/master
